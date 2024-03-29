@@ -64,7 +64,7 @@ const ipades = {
 }
 
 
-const massage = {
+const message = {
     reply_markup: JSON.stringify({
         inline_keyboard:[
             [{text: 'Создать заявку на ремонт' , callback_data: '002'}],
@@ -83,4 +83,8 @@ const homeBut = {
         ]
     })
 }
-module.exports = {priceBut, buttons, iphones, ipades, massage, homeBut}
+
+
+
+
+module.exports = {priceBut, buttons, iphones, ipades, message, homeBut}
